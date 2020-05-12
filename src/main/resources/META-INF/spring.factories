@@ -1,0 +1,12 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.fpl.smdc.core.config.AsyncLoggerConfig,\
+com.fpl.smdc.core.config.CacheScheduler,\
+com.fpl.smdc.core.config.AppConfig,\
+com.fpl.smdc.core.log.LogInterceptor,\
+com.fpl.smdc.core.log.LoggingService,\
+com.fpl.smdc.core.log.LogoutListener,\
+com.fpl.smdc.core.log.LoginListener,\
+com.fpl.smdc.core.rest.handler.HttpClientConfig,\
+com.fpl.smdc.core.rest.handler.RestTemplateConfig,\
+com.fpl.smdc.core.aop.LoggingAspect,\
+com.fpl.smdc.core.rest.exception.handler.RestExceptionHandler
